@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the difference between two dates</description>
+        <internal_name>subtract_dates</internal_name>
+        <label_cache>[{"name":"{{action.date_value}}","label":"action➛old_date_value","type":"action","ref":""},{"name":"{{action.new_date_value}}","label":"action➛new_date_value","type":"action","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].d}}","label":"step➛Calculate difference between two dates➛d","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].di}}","label":"step➛Calculate difference between two dates➛di","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].dis}}","label":"step➛Calculate difference between two dates➛dis","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].dist}}","label":"step➛Calculate difference between two dates➛dist","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].dista}}","label":"step➛Calculate difference between two dates➛dista","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].distan}}","label":"step➛Calculate difference between two dates➛distan","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].distanc}}","label":"step➛Calculate difference between two dates➛distanc","type":"step","ref":""},{"name":"{{step[0f19e47b-4cf2-404a-9b93-93336834251e].distance}}","label":"step➛Calculate difference between two dates➛distance","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>07868747db347300b99df26b6896198d</latest_snapshot>
+        <master_snapshot>e7554b07db347300b99df26b68961909</master_snapshot>
+        <name>Date difference</name>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-18 07:22:23</sys_created_on>
+        <sys_id>bcecdc8bdb7c3300b99df26b68961926</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Date difference</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_324968_needit_sp">d606dfa6db303300b99df26b6896194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">d606dfa6db303300b99df26b6896194f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_bcecdc8bdb7c3300b99df26b68961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 19:54:05</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=bcecdc8bdb7c3300b99df26b68961926"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bcecdc8bdb7c3300b99df26b68961926"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>bcecdc8bdb7c3300b99df26b68961926</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-18 12:47:43</sys_created_on>
+        <sys_id>ee57218bdb307300b99df26b689619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 12:47:43</sys_updated_on>
+        <value/>
+        <variable display_value="">e657218bdb307300b99df26b689619eb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bcecdc8bdb7c3300b99df26b68961926"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>subtracted_value</field>
+        <id>bcecdc8bdb7c3300b99df26b68961926</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-18 07:29:00</sys_created_on>
+        <sys_id>7d6e9ccbdb7c3300b99df26b689619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 09:48:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bcecdc8bdb7c3300b99df26b68961926</table>
+        <value>{{step[0f19e47b-4cf2-404a-9b93-93336834251e].distance}}</value>
+    </sys_element_mapping>
+</record_update>

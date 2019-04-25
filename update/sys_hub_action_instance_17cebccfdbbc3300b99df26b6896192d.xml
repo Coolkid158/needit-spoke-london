@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Date difference">bcecdc8bdb7c3300b99df26b68961926</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Date diff Test Flow">7dfc780fdb7c3300b99df26b68961913</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-18 09:50:33</sys_created_on>
+        <sys_id>17cebccfdbbc3300b99df26b6896192d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_324968_needit_sp">d606dfa6db303300b99df26b6896194f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">d606dfa6db303300b99df26b6896194f</sys_scope>
+        <sys_update_name>sys_hub_action_instance_17cebccfdbbc3300b99df26b6896192d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 13:01:22</sys_updated_on>
+        <ui_id>96e0863d-b947-4809-9cce-5d46ac2888f2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17cebccfdbbc3300b99df26b6896192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17cebccfdbbc3300b99df26b6896192d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-18 13:01:22</sys_created_on>
+        <sys_id>967aa10fdb307300b99df26b689619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 13:01:22</sys_updated_on>
+        <value>2019-04-19 00:00:00</value>
+        <variable display_value="">c6ac91c3db307300b99df26b68961969</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17cebccfdbbc3300b99df26b6896192d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-18 13:01:22</sys_created_on>
+        <sys_id>d27aa10fdb307300b99df26b689619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-18 13:01:22</sys_updated_on>
+        <value>2019-04-16 00:00:00</value>
+        <variable display_value="">8eac91c3db307300b99df26b68961956</variable>
+    </sys_variable_value>
+</record_update>
